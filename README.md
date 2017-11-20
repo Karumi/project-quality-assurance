@@ -5,7 +5,7 @@ The goal of this repository is to define a general guidance for tech projects qu
 
 ## Pull requests
 
-* Pull requests are **mandatory, **even if you are alone in the project.
+* Pull requests are **mandatory**, even if you are alone in the project.
 
 * At least one reviewer's approval is required to merge a pull request (depending on the size of the team, having more reviewers is desirable).
 
