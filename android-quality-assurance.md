@@ -8,6 +8,8 @@ The goal of this repository is to define a general guidance for Android projects
 
 * All pull requests must have screenshots of the new screens or UI changes if any. It is recommended to show changes on different devices and resolutions (small phones, tablets).
 
+* If there are animations involved, record them and upload them to the PR.
+
 * Specify if there are changes in any DB schema and how the evolution is being performed.
 
 * If there is any change on how the app communicates with the server, link to the documentation of the endpoint being used.
@@ -24,7 +26,9 @@ The goal of this repository is to define a general guidance for Android projects
 
 * Include all the translation keys that are needed to implement the new features. Always include the english copy.
 
-* Recommended tags for your issues besides the common ones: _UI_, _DB_, _API_.
+* List all the actions that have to be tracked in the new feature if applicable.
+
+* Recommended tags for your issues besides the common ones: _UI_, _DB_, _API_, _STATS_.
 
 # Continuous Integration
 
@@ -36,11 +40,11 @@ The goal of this repository is to define a general guidance for Android projects
 
 * You can use _ktlint_ and _detekt_ for linting purposes.
 
-* UI tests can be written in _Espresso_ (functional approach) or _Shot_ (Snapshot based).
+* UI tests can be written in _Espresso_ (functional approach), decorated with _Barista_ and _Shot_ (Snapshot based).
 
 * Use _MockWebServer_ to check your API integration.
 
-* The CI environment should be used to upload new beta versions to your preferred service (Google Play, Fabric, etc)
+* The CI environment should be used to upload new beta versions to your preferred service (Google Play, Fabric, etc).
 
 # Repository
 
@@ -51,3 +55,9 @@ The goal of this repository is to define a general guidance for Android projects
 # Project
 
 * Use one of the many tools to keep track of crashes and errors like _Crashlytics_.
+
+* Create different flavors to point to different environments in your API calls.
+
+* Configure your debug and release build types. If you need a different signing config for your beta distributions, create a different build type.
+
+* Always disable stats tracking while running tests. The only safe way to do it is to specifically block tracking from your production code. In order to detect a test environment you can test if there is any test class loaded.
