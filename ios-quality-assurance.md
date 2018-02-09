@@ -11,18 +11,18 @@ Although this document is written having in mind that the reader will be using S
 We all love to start new features. These are a few questions you should ask in order to prevent future delays.
 
 * Is the design ready?
-    * Is there any style guide? If not, ask why?
-    * Are all the assets exported included placeholders? If not, ask them.
-    * Is the design prepared for devices with different sizes? If not, ask why.
-    * Is the visual design ready for corner case data (long names or numbers, etc.)? If not, point it out.
+    - [ ] Is there any style guide? If not, ask why?
+    - [ ] Are all the assets exported included placeholders? If not, ask them.
+    - [ ] Is the design prepared for devices with different sizes? If not, ask why.
+    - [ ] Is the visual design ready for corner case data (long names or numbers, etc.)? If not, point it out.
 * Localization
-    * Ask if there is a list of words/sentences that would be used in this feature.
+    - [ ] Ask if there is a list of words/sentences that would be used in this feature.
 * Are the error scenarios well defined?
-    * There is no internet connection, what this feature would do?
-    * Our server is down, how the app should behave?
-    * Are all the business error handled? If not, should they be?
+    - [ ] There is no internet connection, what this feature would do?
+    - [ ] Our server is down, how the app should behave?
+    - [ ] Are all the business error handled? If not, should they be?
 * Server-side integration.
-    * Is the API defined/available? If not, try to do it, at least explain how the model would look.
+    - [ ] Is the API defined/available? If not, try to do it, at least explain how the model would look.
 
 ## Issues ##
 
