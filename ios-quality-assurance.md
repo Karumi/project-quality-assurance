@@ -4,7 +4,7 @@ The idea behind this document is to have a reference of how to create, develop a
 
 These are no hard rules, but we encourage them as we wrote this document based on our experience doing consultancy projects and in-house project.
 
-Although is written having in mind that the reader will be using Swift, most of the advice can be easily adapted to Obj-C.
+Although this document is written having in mind that the reader will be using Swift, most of the advice can be easily adapted to Obj-C.
 
 ## Feature kickstart ##
 
@@ -13,17 +13,16 @@ We all love to start new features. These are a few questions you should ask in o
 * Is the design ready?
     * Is there any style guide? If not, ask why?
     * Are all the assets exported included placeholders? If not, ask them.
-    * Is the design ready for devices with different sizes? If not, ask why.
-    * Is the visual design ready for corner case data (long names or numbers, etc)? If not, point it out.
+    * Is the design prepared for devices with different sizes? If not, ask why.
+    * Is the visual design ready for corner case data (long names or numbers, etc.)? If not, point it out.
 * Localization
     * Ask if there is a list of words/sentences that would be used in this feature.
 * Are the error scenarios well defined?
     * There is no internet connection, what this feature would do?
     * Our server is down, how the app should behave?
     * Are all the business error handled? If not, should they be?
-    * How the empty cases look like?
 * Server-side integration.
-    * Is the API defined/available? If not, try to do it, at least define how the model would look like.
+    * Is the API defined/available? If not, try to do it, at least explain how the model would look.
 
 ## Issues ##
 
@@ -39,18 +38,18 @@ A fix starts with the issue report. Take your time to do it, indicate what’s g
 ### Fixing ###
 
 * Try to reproduce it. 
-    * If it’s fixed, indicate when it was fixed.
+    * If it’s fixed, indicate when it was resolved.
     * If not, ask for more information on the ticket.
 * Attach media resources (images videos) showing how it looked like after your fix.
-* Explain briefly what was happening.
+* Briefly explain what was happening.
 * Add tests to assure that the scenario described above shouldn’t happen again.
-* Keep track of this issue in the following release to check if it’s really fixed if not, update information and reschedule this issue fix.
+* Keep track of this issue in the following release to check if it’s fixed if not, update information and reschedule this issue fix.
 
 ## Pull requests ##
 
 ### Asking for review ###
 
-Don’t forget you are not your code, the point of establishing a PR process is gathering feedback about how to improve the product you are working on.
+Don’t forget you are not your code, the point of establishing a PR process is gathering feedback about how to improve the product you are working.
 
 * Try to fix just one thing at a time.
 
@@ -60,11 +59,11 @@ Don’t forget you are not your code, the point of establishing a PR process is 
 
 * Indicate how it should be tested by hand. You might have forgotten some scenarios, and the only way to find them out is using exercising that code.
 
-* Be respectful with your colleagues and answer or at least ACK all their comments.
+* Be respectful to your colleagues and answer or at least ACK all their comments.
 
 ### Reviewing ###
 
-Think that nobody does their job badly on purpose (or at least not the most of us). If something is not looking good, try to figure out why almost always there is a reason.
+Think that nobody does their job poorly on purpose (or at least not the most of us). If something is not looking good, try to figure out why almost always there is a reason.
 
 * The best way to have all the context is not the web tool used for PR, checkout the branch and open it.
 
@@ -72,9 +71,9 @@ Think that nobody does their job badly on purpose (or at least not the most of u
 
 * Don’t forget that this is about code quality, no about being right. Your comments or suggestion can be declined if there are reasons for so.
 
-* If you can, provide snippets of code showing your idea/suggestion, it’s usually better to discuss code.
+* If you can, provide snippets of code showing your idea/suggestion, it’s usually better to discuss it.
 
-* Try to review the PR you have been asked to, your opinion may be important, that every developer wants to see their job reflected in the product. The longer a PR is open, the higher the possibility to get conflicts at merge time.
+* Try to review the PR you have been asked to, your opinion may be relevant, that every developer wants to see their job reflected in the product. The longer a PR is open, the higher the possibility to get conflicts at merge time.
 
 
 ## Continuous integration ##
@@ -131,6 +130,6 @@ Keep track of how the app behaves in production.
 
 ### Distribution ###
 
-Distribute often, it’s an excellent way to gather feedback.
+Distribute often; it’s an excellent way to gather feedback.
 
 * Testflight works perfectly and can be integrated with Fastlane
