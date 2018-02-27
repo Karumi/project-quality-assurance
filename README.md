@@ -1,6 +1,7 @@
 # Project Quality Assurance
 
-The goal of this repository is to define a general guidance for tech projects quality assurance at Karumi.
+The goal of this repository is to define a general guidance for tech projects quality assurance at Karumi. This document describes the guidelines we follow for every single project, for more in-detail steps and rules applied to specific platforms, you can read the following READMEs:
+* [Android](./android-quality-assurance.md)
 
 
 ## Pull requests

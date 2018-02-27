@@ -1,6 +1,6 @@
-# Project Quality Assurance
+# Android/Kotlin project Quality Assurance
 
-The goal of this repository is to define a general guidance for Android projects quality assurance at Karumi.
+The goal of this repository is to define a general guidance for Android projects quality assurance at Karumi. This document complements the [Project Quality Assurance](https://github.com/Karumi/project-quality-assurance/blob/master/README.md) with all the specifics we follow for Android projects written in Kotlin.
 
 ## Pull requests
 
