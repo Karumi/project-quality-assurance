@@ -1,0 +1,5 @@
+install:
+  - gem install mdl
+
+script:
+  - mdl --git-recurse .
