@@ -24,13 +24,13 @@ or [a more details versions](PULL_REQUEST_TEMPLATE_2.md).
 
 * If you are developing a project with visual content, always include screenshots/videos. Sometimes this screenshots can be generated automatically using a testing strategy known as "visual regression testing" or "screenshot testing".
 
-# Issues
+## Issues
 
-* Issues have to describe a feature or bug in detail with no ambiguity. 
+* Issues have to describe a feature or bug in detail with no ambiguity.
 
-    * **In case of a feature**: Explain what is the expected outcome and the cases you want to cover. Include potential error scenarios and, when applicable: translation keys, designs, assets, etc.
+  * **In case of a feature**: Explain what is the expected outcome and the cases you want to cover. Include potential error scenarios and, when applicable: translation keys, designs, assets, etc.
 
-    * **In case of a bug**: Describe the steps you have to follow to reproduce it and the expected behavior. Include a severity level, the version of the app or the project where the bug is reproduced and the scenario or the special conditions where you reproduce the error.
+  * **In case of a bug**: Describe the steps you have to follow to reproduce it and the expected behavior. Include a severity level, the version of the app or the project where the bug is reproduced and the scenario or the special conditions where you reproduce the error.
 
 * Tag your issues, *enhancement* and *bug* are the most common tags but you can use the ones that better fit your project.
 
@@ -40,29 +40,29 @@ or [a more details versions](PULL_REQUEST_TEMPLATE_2.md).
 
 * Organize your issues with your preferred project manager tool. If you are using Github, the projects tab might work just fine. Create at least 4 phases for issues: *TODO, WIP, REVIEW* and *DONE*. Before moving an issue to the **DONE**  column, you should review with you team what **DONE** means. For some teams, merging a branch could be consider as **DONE** and for other teams we won't consider a task as done until the new version is released to the public.
 
-# Continuous Integration
+## Continuous Integration
 
 * Before merging a branch it is mandatory to verify:
 
-    * That your project compiles.
+  * That your project compiles.
 
-    * Your tests are passing.
+  * Your tests are passing.
 
-    * There are no linting issues.
+  * There are no linting issues.
 
-    * Checkstyle.
+  * Checkstyle.
 
-    * Database migrations and configuration files are working.
+  * Database migrations and configuration files are working.
 
 * It is optional to store information about the following points to keep track of the evolution of the project:
 
-    * Calculate tests code coverage.
+  * Calculate tests code coverage.
 
-    * Run other static analysis tools such as complexity metrics.
+  * Run other static analysis tools such as complexity metrics.
 
-* When applicable, your CI service should be the one deploying new versions when merging your pull request automatically. That doesn't mean that manual releases can't be done by the person responsible of the project.
+  * When applicable, your CI service should be the one deploying new versions when merging your pull request automatically. That doesn't mean that manual releases can't be done by the person responsible of the project.
 
-# Repository
+## Repository
 
 * Include a *.gitignore* file to avoid uploading build, temporal or local configuration files.
 
@@ -76,7 +76,7 @@ or [a more details versions](PULL_REQUEST_TEMPLATE_2.md).
 
 * Do not ever upload sensitive information to your repository such as API keys, users, passwords or certificates unless you are forced to (Terraform or mobile certificates can be stored in private repositories).
 
-# Project
+## Project
 
 * Create alarms for backend services, the most simple one will just send a request to a health endpoint to see if it works.
 
@@ -92,8 +92,7 @@ or [a more details versions](PULL_REQUEST_TEMPLATE_2.md).
 
 **Projects will have when possible two or more developers working on it in order to enforce these requirements.**
 
-License
--------
+## License
 
     Copyright 2018 Karumi
 

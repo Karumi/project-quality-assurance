@@ -1,8 +1,10 @@
 ### Steps to reproduce
 
+```
 1. Log in
 2. Open this screen
 3. ...
+```
 
 ### Expected behaviour
 
