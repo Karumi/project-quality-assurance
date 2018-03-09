@@ -46,7 +46,7 @@ We all love to start new features. These are a few questions you should ask in o
 * List all the actions that have to be tracked in the new feature if applicable.
 * Recommended tags for your issues besides the common ones: _UI_, _DB_, _API_, _STATS_.
 
-### Fixing an issue
+## Fixing an issue
 
 * Try to reproduce it.
   * If it’s fixed, indicate when it was resolved.
