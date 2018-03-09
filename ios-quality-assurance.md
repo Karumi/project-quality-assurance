@@ -2,7 +2,7 @@
 
 The idea behind this document is to have a reference of how to create, develop and maintain an iOS project in [Karumi](https://karumi.com).
 
-These are no hard rules, but we encourage them as we wrote this document based on our experience doing consultancy projects and in-house project. This document complements the [Project Quality Assurance](https://github.com/Karumi/project-quality-assurance) with all the specifics we follow for Android projects written in Kotlin.
+These are no hard rules, but we encourage them as we wrote this document based on our experience doing consultancy projects and in-house project. This document complements the [Project Quality Assurance](https://github.com/Karumi/project-quality-assurance) with all the specifics we follow for iOS projects written in Kotlin.
 
 Although this document is written having in mind that the reader will be using Swift, most of the advice can be easily adapted to Obj-C.
 
@@ -75,7 +75,7 @@ Think that nobody does their job poorly on purpose (or at least not the most of 
 
 ## Continuous integration
 
-* Besides what's mandatory for every other project, in Android it's also required to:
+* Besides what's mandatory for every other project, in iOS it's also required to:
   * Verify your UI is being rendered correctly.
   * Check your API integration.
 
