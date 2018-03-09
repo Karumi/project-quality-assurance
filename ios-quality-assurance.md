@@ -12,11 +12,11 @@ We all love to start new features. These are a few questions you should ask in o
 
 * Is the design ready?
     - [ ] Is there any style guide? If not, ask why?
-    - [ ] Are all the assets exported included placeholders? If not, ask them.
+    - [ ] Are all the assets exported included placeholders? If not, ask.
     - [ ] Is the design prepared for devices with different sizes? If not, ask why.
     - [ ] Is the visual design ready for corner case data (long names or numbers, etc.)? If not, point it out.
 * Localization
-    - [ ] Ask if there is a list of words/sentences that would be used in this feature.
+    - [ ] Are the sentences for this feature defined? If no, require them; if they are, consider if there is enough room to display them, especially the dynamic ones (the ones which will be displaying usernames, amount of money, etc.)
 * Are the error scenarios well defined?
     - [ ] There is no internet connection, what this feature would do?
     - [ ] Our server is down, how the app should behave?
@@ -91,7 +91,7 @@ Consider continuous integration the source of truth. If something is working on 
 
 * Do not track more code than needed.
 
-* Setup a proper ignore file.
+* Setup a proper ignore file, a good example for Swift can be found [here:] (https://github.com/github/gitignore/blob/master/Swift.gitignore)
 
 ## Project tooling ##
 
@@ -105,31 +105,35 @@ Be sure that the code styles is consistent across the whole project.
 
 It’s important to verify that our app is doing what is suppose to do for that we can use:
 
-* Verification: Nimble, SwiftCheck, ios-snapshot-test-case
-* HttpStubs: OHHttpStub
+* Verification: [Nimble](https://github.com/Quick/Nimble), [SwiftCheck](https://github.com/typelift/SwiftCheck), [ios-snapshot-test-case](https://github.com/uber/ios-snapshot-test-case/)
+* HttpStubs: [OHHttpStub](https://github.com/AliSoftware/OHHTTPStubs)
 
 ### Code generation ###
 
 If some parts of the code can be generated automatically, let’s do that.
 
-* Miscellanea: Sourcery
-* API integration: Swagger
+* Miscellanea: [Sourcery](https://github.com/krzysztofzablocki/Sourcery)
+* API integration: [Swagger](https://github.com/swagger-api/swagger-codegen)
 
 ### CI/Integration ###
 
 As said before, CI environment is mandatory for every project.
 
-* Tool: Fastlane
-* CI platform: Bitrise seems to be working fine for iOS and Android.
+* Tool: [Fastlane](https://fastlane.tools)
+* CI platform: [Bitrise](https://www.bitrise.io/) seems to be working fine for iOS and Android.
 
 ### Crashes ###
 
 Keep track of how the app behaves in production.
 
-* Fabric is the tool we’ve been using the most.
+* [Fabric](https://get.fabric.io) is the tool we’ve been using the most.
 
 ### Distribution ###
 
-Distribute often; it’s an excellent way to gather feedback.
+Distribute often; it’s an excellent way to gather feedback. For instance, we aim to deploy a weekly beta to our clients. This has wider implications that you could expect: 
 
-* Testflight works perfectly and can be integrated with Fastlane
+- Issues need to be defined to be fitted in one week.
+- Feedback cycle is high enough to detect issues.
+- Bugs are discovered early.
+
+* [Testflight](https://developer.apple.com/testflight/) works perfectly and can be integrated with Fastlane
