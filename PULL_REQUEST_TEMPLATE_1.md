@@ -1,6 +1,6 @@
 ### :pushpin: References
 
-* **Issue:** _Link to your issue goes here_ 
+* **Issue:** _Link to your issue goes here_
 * **Related pull requests: _List of related pull-requests (comma-separated): #1, #2_
 
 ### :cyclone: Git merge message
