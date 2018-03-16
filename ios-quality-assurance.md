@@ -2,7 +2,7 @@
 
 The idea behind this document is to have a reference of how to create, develop and maintain an iOS project in [Karumi](https://karumi.com).
 
-These are no hard rules, but we encourage them as we wrote this document based on our experience doing consultancy projects and in-house project. This document complements the [Project Quality Assurance](https://github.com/Karumi/project-quality-assurance) with all the specifics we follow for iOS projects written in Kotlin.
+These are no hard rules, but we encourage them as we wrote this document based on our experience doing consultancy projects and in-house project. This document complements the [Project Quality Assurance](https://github.com/Karumi/project-quality-assurance) with all the specifics we follow for iOS projects written in Swift.
 
 Although this document is written having in mind that the reader will be using Swift, most of the advice can be easily adapted to Obj-C.
 
