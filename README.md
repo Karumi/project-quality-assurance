@@ -12,7 +12,7 @@ The goal of this repository is to define general guidance for tech projects qual
 * At least one reviewer's approval is required to merge a pull request (depending on the size of the team, having more reviewers is desirable).
 
 * Use a template to describe **what** are you trying to solve with your code and **why** are you doing it in that way. If you don't have a template yet and you are using Github, feel free to use [the following one](PULL_REQUEST_TEMPLATE_1.md)
-or [a more details version](PULL_REQUEST_TEMPLATE_2.md).
+or [a more in-depth version](PULL_REQUEST_TEMPLATE_2.md).
 
 * Pull requests have to be linked to a CI service that automatically validates your code. Depending on the project you are working on, different continuous integration services can be used. We recommend you to use one where the CI configuration is versioned in the project repository itself.
 
@@ -31,11 +31,11 @@ or [a more details version](PULL_REQUEST_TEMPLATE_2.md).
   * **In case of a feature**: Explain what is the expected outcome and the cases you want to cover. Include potential error scenarios and, when applicable: translation keys, designs, assets, etc.
 
   * **In case of a bug**: Describe the steps you have to follow to reproduce it and what's the expected behavior. Include:
-  
+
     * A severity level.
-    
+
     * The version of the app or the project where the bug is reproduced.
-    
+
     * The scenario or the special conditions to reproduce the error.
 
 * Tag your issues, *enhancement* and *bug* are the most common tags, but you can use the ones that better fit your project.
