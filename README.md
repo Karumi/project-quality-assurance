@@ -7,22 +7,22 @@ The goal of this repository is to define general guidance for tech projects qual
 
 ## Pull requests
 
-* Pull requests are **mandatory**, even if you are alone in the project. The usage of pull requests improves the way the history of the project evolves so we can better understand how and why something was implemented. Additionally, this practice helps the developer to review the content of a pull-request before merging a branch and consider it as done.
+* Pull requests are **mandatory**, even if you are alone in the project. The usage of pull requests improves the way the history of the project evolves so we can better understand how and why something was implemented. Additionally, this practice helps developers review the content of a pull-request before merging a branch and consider it as done.
 
 * At least one reviewer's approval is required to merge a pull request (depending on the size of the team, having more reviewers is desirable).
 
 * Use a template to describe **what** are you trying to solve with your code and **why** are you doing it in that way. If you don't have a template yet and you are using Github, feel free to use [the following one](PULL_REQUEST_TEMPLATE_1.md)
-or [a more details versions](PULL_REQUEST_TEMPLATE_2.md).
+or [a more in-depth version](PULL_REQUEST_TEMPLATE_2.md).
 
-* Pull requests have to be linked to a CI service that automatically validates your code. Depending on the project you are developing, different continuous integration services can be used. We would recommend you to use the one where the CI configuration is versioned as part of the project repository.
+* Pull requests have to be linked to a CI service that automatically validates your code. Depending on the project you are working on, different continuous integration services can be used. We recommend you to use one where the CI configuration is versioned in the project repository itself.
 
-* All new features have to include tests for the feature. If none are created for time reasons, create an issue to later tackle the problem, but remember, sending the PR with the production code and the tests evaluating the correct implementation of the production code in at the same time is desirable.
+* All new features have to include tests for the feature. If none are created for time reasons, create an issue to later tackle the problem, but remember, sending the PR with the production code and the tests evaluating the correct implementation of the production code at the same time is desirable.
 
-* All bugfixes have to include a test that verifies that the bug has been addressed. This will help you to avoid regressions, so once you fix the bug and add the test, you won't face the bug again.
+* All bugfixes have to include a test that verifies that the bug has been addressed. This will help you avoid regressions, so once you fix the bug and add the test, you won't face the same bug again.
 
 * Do not add *TODO* nor *FIXME* comments to PRs, create issues for that matter.
 
-* If you are developing a project with visual content, always include screenshots/videos. Sometimes this screenshots can be generated automatically using a testing strategy known as "visual regression testing" or "screenshot testing".
+* If you are developing a project with visual content, always include screenshots/videos. Sometimes these resources can be generated automatically using a testing strategy known as "visual regression testing" or "screenshot testing".
 
 ## Issues
 
@@ -30,7 +30,13 @@ or [a more details versions](PULL_REQUEST_TEMPLATE_2.md).
 
   * **In case of a feature**: Explain what is the expected outcome and the cases you want to cover. Include potential error scenarios and, when applicable: translation keys, designs, assets, etc.
 
-  * **In case of a bug**: Describe the steps you have to follow to reproduce it and the expected behavior. Include a severity level, the version of the app or the project where the bug is reproduced and the scenario or the special conditions where you reproduce the error.
+  * **In case of a bug**: Describe the steps you have to follow to reproduce it and what's the expected behavior. Include:
+
+    * A severity level.
+
+    * The version of the app or the project where the bug is reproduced.
+
+    * The scenario or the special conditions to reproduce the error.
 
 * Tag your issues, *enhancement* and *bug* are the most common tags, but you can use the ones that better fit your project.
 
@@ -38,7 +44,7 @@ or [a more details versions](PULL_REQUEST_TEMPLATE_2.md).
 
 * Use a template (file *.github/ISSUE_TEMPLATE.md*). [Feel free to use this one](ISSUE_TEMPLATE.md).
 
-* Organize your issues with your preferred project management tool. If you are using Github, the projects tab might work just fine. Create at least 4 phases for issues: *TODO, WIP, REVIEW* and *DONE*. Before moving an issue to the **DONE**  column, you should review with your team what **DONE** means. For some teams, merging a branch could be considered as **DONE**, and for other teams, we won't consider a task as done until the new version is released to the public.
+* Organize your issues with your preferred project management tool. If you are using GitHub, the projects tab might work just fine. Create at least 4 phases for issues: *TODO, WIP, REVIEW* and *DONE*. Before moving an issue to the **DONE**  column, you should review with your team what **DONE** means. For some teams, merging a branch could be considered as **DONE**, others won't consider a task as done until the new version is released to the final users.
 
 ## Continuous Integration
 
