@@ -127,7 +127,7 @@ Distribute often; it’s an excellent way to gather feedback. For instance, we a
 - Feedback cycle is high enough to detect issues.
 - Bugs are discovered early.
 
-* [Testflight](https://developer.apple.com/testflight/) works perfectly and can be integrated with Fastlane
+* [Google Play - beta](https://support.google.com/googleplay/android-developer/answer/3131213?hl=en) works perfectly and provides usefull feedback
 
 ## Project
 
