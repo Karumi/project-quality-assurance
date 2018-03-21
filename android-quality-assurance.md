@@ -127,7 +127,7 @@ Distribute often; it’s an excellent way to gather feedback. For instance, we a
 - Feedback cycle is high enough to detect issues.
 - Bugs are discovered early.
 
-* [Google Play - beta](https://support.google.com/googleplay/android-developer/answer/3131213?hl=en) works perfectly and provides usefull feedback
+* [Google Play - beta](https://support.google.com/googleplay/android-developer/answer/3131213?hl=en) works perfectly and provides useful feedback
 
 ## Project
 
