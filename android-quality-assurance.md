@@ -95,7 +95,7 @@ Think that nobody does their job poorly on purpose (or at least not the most of 
 * Try to use a feature/fix branch approach, no one should code directly on master/develop.
 * Create a branch for release tentatives, and those branches will be alive while the release is being checked, any change related to that release should be done following the same feature branch approach, but having that release branch as reference branch.
 * Do not track more code than needed.
-* Setup a proper ignore file, a good example for Swift can be found [here](https://github.com/github/gitignore/blob/master/Swift.gitignore).
+* Setup a proper ignore file, a good example for Android can be found [here](https://github.com/github/gitignore/blob/master/Android.gitignore).
 
 ## Project tooling
 
