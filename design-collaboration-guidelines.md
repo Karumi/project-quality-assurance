@@ -9,7 +9,7 @@ These are the basic style that will serve as the foundation of all other compone
 ### Color Palette
 A list of all the color used in the app with a name associated.
 
-![color palette](assets/color-palette.png)
+![color palette](./assets/color-palette.png)
 
 * https://github.com/SwiftGen/SwiftGen#colors
 * https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a
@@ -18,13 +18,13 @@ A list of all the color used in the app with a name associated.
 ### Typography - Fonts
 A list of Fonts and Size and when possible complete style including color and format.
 
-![typography](assets/typography.png)
+![typography](./assets/typography.png)
 
 ### Layout - Sizing and Spacing
 Defining base templates that respect ratio and size of most used or more common devices that will be used. And a general rule for padding or margin that you can apply to most of the screen.
 
-![layout ios](assets/layout-ios.png)
-![layout android](assets/layout-android.png)
+![layout ios](./assets/layout-ios.png)
+![layout android](./assets/layout-android.png)
 
 
 ## Components - Pattern library - Atoms
@@ -43,13 +43,13 @@ As today most of the mobile Apps, are single window full-screen design. In colla
 Stack, You will find this concept under Navigation Stack or Back Stack under the respective platform. You can quickly identify these screen through the fact that they have a Back/Up Button on the top left Corner.
 Important: Remind UX and Product Owner that navigation from a notification should keep into account the stack designed to get to the desired screen.
 
-![navigation stack](assets/navigation-stack.png)
+![navigation stack](./assets/navigation-stack.png)
 
 
 Modal/Dialog, It's a screen that sits on top of the current screen, the user must interact with it before they can return to the previous screen. It should contain text and UI controls focused on a specific task. They inform users about critical information, require users to make decisions, or involve multiple tasks. You could identify them as they have at least a cancel button or close button.
 Important: Remind UX and Product Owner a Modal could not be initial screen as they have a dismiss button.
 
-![navigation stack](assets/modal.png)
+![navigation stack](./assets/modal.png)
 
 
 ## Empty States
@@ -68,9 +68,9 @@ A general guideline is to show a loader:
 Is when a user interaction blocks the UI, like validating a form through a remote API call.
 Is when loading background content could take more than 1 ms
 
-![components progressactivity behavior](assets/components-progressactivity-behavior-loading-files-circular.gif)
+![components progressactivity behavior](./assets/components-progressactivity-behavior-loading-files-circular.gif)
 
-![activity indicators](assets/activity-indicators.gif)
+![activity indicators](./assets/activity-indicators.gif)
 
 Reference:
 * https://tympanus.net/codrops/2013/01/09/designing-for-the-empty-states/
