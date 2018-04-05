@@ -18,7 +18,6 @@ A list of all the color used in the app with a name associated.
 * [Android Resources Color](https://developer.android.com/guide/topics/resources/more-resources.html#Color)
 * [Material Guidelines Color System](https://material.io/guidelines/style/color.html#color-color-system)
 
-
 ### Typography - Fonts
 A list of Fonts and Size and when possible complete style including color and format.
 
@@ -53,7 +52,6 @@ Modal/Dialog, It's a screen that sits on top of the current screen, the user mus
 Important: Remind UX and Product Owner a Modal could not be initial screen as they have a dismiss button.
 
 * [Best Practices for Modals / Overlays / Dialog Windows](https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c)
-
 
 ![navigation stack](./assets/modal.png)
 
