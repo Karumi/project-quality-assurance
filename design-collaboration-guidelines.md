@@ -4,7 +4,6 @@ As an app developer, providing the best implementation of the design requested m
 
 * [A Comprehensive guide to design systems](https://www.invisionapp.com/blog/guide-to-design-systems/)
 
-
 ## Style guide - Foundation
 These are the basic styles that will serve as the foundation of all other components. This style guide will be helpful to avoid mistakes by not using the proper element as part of the application UI. Independently if you follow material design, fluent design or any other guidelines, these basics style element will facilitate design adjustment and rebranding.
 
@@ -41,7 +40,7 @@ Commons components  you can find in most applications are:
 ## Interaction Model - Patterns
 
 ### Navigation
-As today most of the mobile apps are single window full-screen design, in collaboration with the designer, it's essential to review a prototype of the navigation with the design of the App using tools like Marvel or Invision. 
+As today most of the mobile apps are single window full-screen design, in collaboration with the designer, it's essential to review a prototype of the navigation with the design of the App using tools like Marvel or Invision.
 
 There is mainly two kind of Navigation to navigate from screen to another:
 
@@ -72,7 +71,6 @@ Show to the user that clear the content of the screen is shown.
 ### Error Cases
 Indicate to the user that the App wasn't able to load the content of the page.
 
-
 ## Loading cases
 While reviewing the UI, let know UX and Product Owner which interactions with users will generate load content or perform lengthy data processing operations. Use activity indicators and progress bars to let people know your app isn’t stalled and to give them some idea of how long they’ll be waiting.
 
@@ -83,7 +81,6 @@ Is when loading background content could take more than 1 ms
 ![components progressactivity behavior](./assets/components-progressactivity-behavior-loading-files-circular.gif)
 
 ![activity indicators](./assets/activity-indicators.gif)
-
 
 ## Tooling
 
