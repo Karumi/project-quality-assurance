@@ -4,33 +4,33 @@ As app developers, one of our top priorities should always be to create implemen
 
 
 ## Style guide - Foundation
-These are the basic styles that will serve as the foundation of all the other part of the design. The style guide will be helpful to avoid the mistake of not using the proper element as part of the application UI. Regardless if you follow material design, fluent design or any other guidelines, these style elements will facilitate tasks such as design adjustment and rebranding.
+These are the basic styles that will serve as the foundation of all the other part of the design. The style guide will be helpful to avoid the mistake of not using the proper element as part of the application UI. Regardless if you follow material design, fluent design or any other design system, these style elements will facilitate tasks such as design adjustment and rebranding.
 
 ### Color Palette
-A list of all the color used in the app with a name associated. Tools exists for in iOS [native][asset-catalog-colors] or [custom][swiftgen] and [Android][android-resources-color] to transform color palettes as part of you code.
+A list of all the color used in the app with their name associated. Tools exists [native][asset-catalog-colors] or [custom][swiftgen] for in iOS and [Android][android-resources-color] to transform color palettes and become part of your code.
 
 ![color palette](./assets/color-palette.png)
 
 ### Typography - Fonts
-A list of Fonts and Size. When possible, a complete style guide including color and format should also be provided.
+A list of all the fonts and sizes used in the app. When possible, a complete style guide should also include colors and formatting(bold, italic, alignment) of each font.
 
 ![typography](./assets/typography.png)
 
 ## Layout
 
 ### Sizing and Spacing
-Defining base templates that respect ratio and size of most used or more common devices that will be used. And a general rule for padding or margin that you can apply to most, if not all, of the app screens. Include general rules when spacing values are constant (e.g., 8dp) or if something has to be centered or positioned relative to other views.
+Base templates of every screen should be based o most commonly used devices that respect ratio and size. And a general rule for padding or margin that you can apply to most, if not all, of the app screens, include general rules when spacing values are constant (e.g., 8dp) or if elements have to be centered or positioned relative to other views.
 
 ![layout ios](./assets/layout-ios.png)
 
 ### Size Classes - Responsive UI
 
-Interface elements and layouts can be configured to automatically change shape and size on different devices, during multitasking on a tablet, in split view, when the screen is rotated, and more. You will find different strategy depending on the platform as [device size classes][adaptivity-layout] in iOS and [responsive UI][responsive-ui] in Android.
+Interface elements and layouts can be configured to automatically change shape and size on different devices, during multitasking on a tablet, in split view, when the screen is rotated, and more. You will find various strategy depending on the platform as [device size classes][adaptivity-layout] in iOS and [responsive UI][responsive-ui] in Android.
 
 ## Components - Pattern library - Atoms
-Different design systems will have different naming for it, in [atomic design][atomicdesign] you will call this Atoms, in others, it's just called Pattern Library, or Components. All these building blocks should be based on the style guide and will be used to build more complex elements of user interface like pages and screens.
+Different design systems will have different naming for it, in [atomic design][atomic-design] you will call this Atoms, in others, it's just called pattern library, or components. All these building blocks should be based on the style guide and will be used to build more complex elements of user interface like pages and screens.
 
-Commons components  you can find in most applications are:
+Commons components you can find in most applications are:
 * Labels
 * Inputs
 * Buttons
@@ -46,12 +46,12 @@ Animated views allow in general the following change of properties as animation 
 * Transform: scale, rotate, or translate
 * Color and transparency
 
-Animated assets are used for loaders or visual description of first use or empty case. They are defined with a motion graphic tool like Adobe After Effects and integrated into the app with a framework like [Lottie][lottie].
+Animated assets are used for custom loaders, visual description of first use or empty case. They are defined with a motion graphic tool like Adobe After Effects and integrated into the app with a framework like [Lottie][lottie].
 
 ## Interaction Model - Patterns
 
 ### Navigation
-As today most of the mobile apps are single window full-screen design, in collaboration with the designer, it's essential to review a prototype of the navigation with the design of the App using tools like Marvel or Invision.
+As today most of the mobile apps are single window full-screen design, in collaboration with the designer, it's essential to review a prototype of the navigation with the design of the App using tools like Marvel or InVision.
 
 There are mainly two ways to navigate from one screen to another:
 
@@ -67,7 +67,7 @@ Important: Remind UX and Product Owner a Modal could not be initial screen as th
 
 ### Screen transitions
 
-If in the navigation prototype no screen transitions are described, ensure with UX and Product Owner that native transitions from the platform will be applied. And if any custom transitions are described, they should include at least duration and easings curves used.
+If in the navigation prototype no screen transitions are described, ensure with UX and Product Owner that native screen transitions from the platform will be applied. And if any custom transitions are specified, they should include at least duration and easings curves used.
 
 ## Empty States
 An essential step while design and estimating how complicated a screen is, is to define its empty states.
@@ -76,7 +76,7 @@ An essential step while design and estimating how complicated a screen is, is to
 Explain to the user functionality of the app, generally shown the first time that user uses the app, or it can appear until the user makes the first interaction that generates content.
 
 ### User Cleared
-Shown to the user that clear the content of the screen is shown.
+Shown to the user when he clears the content of the screen.
 
 ### Error Cases
 Indicate to the user that the App wasn't able to load the content of the page.
@@ -88,7 +88,7 @@ Placeholder is needed mainly in two cases:
 * Form input fields to describe the expected value.
 
 ## Loading cases
-While reviewing the UI, let the UX and Product Owner know which interactions with users will generate load content or perform lengthy data processing operations. Use activity indicators and progress bars to let people know your app isn’t stalled and to give them some idea of how long they’ll be waiting.
+While reviewing the UI, let the UX and Product Owner know which interactions with users will load content or perform lengthy data processing operations. Use loading indicators and progress bars to allow the user know your app isn’t stalled and to give them an estimate of how long they’ll be waiting.
 
 A general guideline is to show a loader:
  * When a user interaction blocks the UI, like validating a form through a remote API call.
@@ -100,17 +100,17 @@ A general guideline is to show a loader:
 
 ## Assets
 
-All assets of all screens should be provided, through a tool, shared folder or repositoriy. Ensure that you have all the density corresponding to the platforms that you are working on. 
+All assets of all screens should be provided, through a tool, shared folder or repository. Ensure that you have all the densities corresponding to the platforms that you are developing.
 
 ##  User Generated Content
 
-Design should provide example of design that include user generated content, that con come from direct user input or content generated by backend API based on the users.
+Design should provide examples that include user-generated content, that content can come from direct user input or content generated by backend API based on the user's information.
 
 Typical content:
 
 * Long text
 * Full name
-* Big Numbers
+* Big Number
 
 ## Tooling
 
@@ -123,7 +123,7 @@ This guideline does not come with a recommendation of tooling, the ones that we 
 ## References
 
 * [A Comprehensive guide to design systems by Will Fanguy on December 1, 2017][design-systems]
-* [Designing Systems by Brad Frost’s Atomic Design][design-systems]
+* [Designing Systems by Brad Frost’s Atomic Design][atomic-design]
 * [Size Classes and Core Components at WWDC 2017 - Session 812 - iOS](https://developer.apple.com/videos/play/wwdc2017/812/)
 * [Material Design guidelines > Responsive UI][responsive-ui]
 * [iOS Human Interface Guidelines > Adaptivity and Layout][adaptivity-layout]
@@ -140,7 +140,7 @@ This guideline does not come with a recommendation of tooling, the ones that we 
 * [Android Guide Providing Resources](https://developer.android.com/guide/topics/resources/providing-resources.html)
 
 [design-systems]: https://www.invisionapp.com/blog/guide-to-design-systems/
-[atomicdesign]: http://www.atomicdesign.bradfrost.com/chapter-1/
+[atomic-design]: http://www.atomicdesign.bradfrost.com/chapter-1/
 [asset-catalog-colors]: https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a
 [swiftgen]: https://github.com/SwiftGen/SwiftGen#colors
 [android-resources-color]: https://developer.android.com/guide/topics/resources/more-resources.html#Color
