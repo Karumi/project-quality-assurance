@@ -23,8 +23,6 @@ Defining base templates that respect ratio and size of most used or more common 
 
 ![layout ios](./assets/layout-ios.png)
 
-![layout android](./assets/layout-android.png)
-
 ### Size Classes - Responsive UI
 
 Interface elements and layouts can be configured to automatically change shape and size on different devices, during multitasking on a tablet, in split view, when the screen is rotated, and more. You will find different strategy depending on the platform as [device size classes][adaptivity-layout] in iOS and [responsive UI][responsive-ui] in Android.
