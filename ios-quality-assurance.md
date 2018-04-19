@@ -11,9 +11,6 @@ Although this document is written having in mind that the reader will be using S
 We all love to start new features. These are a few questions you should ask to prevent future delays.
 
 * [Is the design prototype ready](./design-collaboration-guidelines.md)?
-
-Design prototype checklist:
-
   - [ ] Is there any style guide?
   - [ ] Is the design prepared for devices with different sizes?
   - [ ] Is the design have components that repeat themselves through various screens and component guide is provided?

@@ -7,9 +7,6 @@ The goal of this repository is to define a general guidance for Android projects
 We all love to start new features. These are a few questions you should ask in order to prevent future delays.
 
 * [Is the design prototype ready](./design-collaboration-guidelines.md)?
-
-Design prototype checklist:
-
   - [ ] Is there any style guide?
   - [ ] Is the design prepared for devices with different sizes?
   - [ ] Is the design have components that repeat themselves through various screens and component guide is provided?
@@ -19,7 +16,6 @@ Design prototype checklist:
   - [ ] Is the design include a loading animation?
   - [ ] Are all the assets exported included placeholders?
   - [ ] Is the visual design ready for user-generated content (long names or numbers, etc.)?
-
 
 * Localization
   - [ ] Are the sentences for this feature defined? If no, require them; if they are, consider if there is enough room to display them, especially the dynamic ones (the ones which will be displaying usernames, amount of money, etc.)
