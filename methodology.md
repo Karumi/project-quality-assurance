@@ -1,3 +1,12 @@
+https://www.agilealliance.org/glossary/kanban/
+https://www.agilealliance.org/glossary/scrum
+https://www.agilealliance.org/what-is-scrumban/
+
+Scrumban - Karumi Project Methodology 
+
+## 
+
+
 ## Goals
 Teams following our methodology are expected to deliver quality features on schedule.
 
@@ -53,12 +62,16 @@ The increment is the collection of the Product Backlog Items that meet the teamâ
 The definition of done is a teamâ€™s shared agreement on the criteria that a Product Backlog Item must meet before it is considered done.
 
 ### Roles
-#### The Product Owner
+#### The Product Owner - Service Request Manager
 
 The product owner is a role team responsible for managing the product backlog in order to achieve the desired outcome that the team seeks to accomplish.
 
 The product owner role exists in Scrum to address challenges that product development teams had with multiple, conflicting direction, or no direction at all with respect to what to build.
- 
+
+### The Scrum Master - Service Delivery Manager
+The scrum master is the team role responsible for ensuring the team lives agile values and principles and follows the processes and practices that the team agreed they would use.
+
+The role does not have any actual authority and any one from the devlopment teams can take the responsability.
 
 #### The Development Team
 The development team consists of the people who deliver the product increment inside a Sprint.
@@ -66,6 +79,39 @@ The development team consists of the people who deliver the product increment in
 The main responsibility of the development team is to deliver the increment that delivers value every Sprint. How the work is divided up to do that is left up to the team to determine based on the conditions at that time.
 
 ### Lifecycle
+Because work items tend to flow through a kanban system in single piece flow, and each system is different with respect to stages in its workflow, the best way to describe the lifecycle of the Kanban method is via the feedback loops involved.
+
+Those feedback loops (cadences) are:
+
+#### Strategy Review (Quarterly)
+
+Select the services to provide and the context in which those services are appropriate.
+
+#### Operations Review (Monthly)
+
+Understand the balance between and across services, including deploying people and resources to maximize value delivery
+
+#### Risk Review (Monthly)
+
+Understand and respond to delivery risks in services
+
+#### Service Delivery Review (Bi-Weekly)
+
+Examine and improve the effectiveness of a service.  This is similar to a retrospective that is focused on improving the kanban system.
+
+#### Replenishment Meeting - Sprint Planning (Weekly)
+
+Identify items that the team will work on and determine which work items may be selected next.
+
+#### The Kanban Meeting - Daily Scrum (Daily)
+
+A team working on a service coordinates their activities for the day.
+
+#### Delivery Planning Meeting (Per Delivery Cadence)
+
+Monitor and plan deliveries to customers. They can go from Daily to Weekly based on the scope of the Increment. Week without increment should be avoided.
+
+
 This methodology allows our development teams flexibility to respond to changing situations. This framework has sufficient control points in place to ensure the team does not stray from the desired outcome, and that issues can be identified and resolved and process adjustments made while the effort is still underway.
 
 The Scrum Lifecycle starts with a prioritized backlog, but does not provide any guidance as to how that backlog is developed or prioritized.
