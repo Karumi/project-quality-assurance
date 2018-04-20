@@ -4,13 +4,18 @@ The goal of this repository is to define a general guidance for Android projects
 
 ## Feature kickstart
 
-We all love to start new features. These are a few questions you should ask in order to prevent future delays.
+We all love to start new features. These are a few questions you should ask to prevent future delays.
 
-* Is the design ready?
-  - [ ] Is there any style guide? If not, ask why?
-  - [ ] Are all the assets exported included placeholders? If not, ask.
-  - [ ] Is the design prepared for devices with different sizes? If not, ask why.
-  - [ ] Is the visual design ready for corner case data (long names or numbers, etc.)? If not, point it out.
+* [Is the design prototype ready](./design-collaboration-guidelines.md)?
+  - [ ] Does it include a style guide?
+  - [ ] Is it prepared for devices with different sizes?
+  - [ ] Does it have components that repeat themselves through various screens, if yes does it have a component guide?
+  - [ ] Does it include any navigation prototype or guide?
+  - [ ] Does it include empty states for screens with dynamic content?
+  - [ ] Did we provide a list the interactions that will trigger a loading state?
+  - [ ] Does it include a loading animations?
+  - [ ] Are all the assets exported included placeholders?
+  - [ ] Does it include examples of user-generated content (long names or numbers, etc.)?
 
 * Localization
   - [ ] Are the sentences for this feature defined? If no, require them; if they are, consider if there is enough room to display them, especially the dynamic ones (the ones which will be displaying usernames, amount of money, etc.)
