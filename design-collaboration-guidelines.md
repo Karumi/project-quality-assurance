@@ -8,16 +8,15 @@ These are the basic styles that will serve as the foundation of all the other pa
 ### Color Palette
 A list of all the color used in the app with their name associated. Tools exists [native][asset-catalog-colors] or [custom][swiftgen] for in iOS and [Android][android-resources-color] to transform color palettes and become part of your code.
 
-| ![color palette](./assets/jt-color-palette.png) | 
-|:--:| 
+| ![color palette](./assets/jt-color-palette.png) |
+|:--:|
 | [jobandtalent VisualKit palette](https://jobandtalent.engineering/visualkit-ui-framework-74ab8aae0d42) |
 
 ### Typography - Fonts
 A list of all the fonts and sizes used in the app. When possible, a complete style guide should also include colors and formatting(bold, italic, alignment) of each font.
 
-
-| ![typography](./assets/jt-typography.png) | 
-|:--:| 
+| ![typography](./assets/jt-typography.png) |
+|:--:|
 | [jobandtalent VisualKit fonts](https://jobandtalent.engineering/visualkit-ui-framework-74ab8aae0d42) |
 
 ## Layout
@@ -76,10 +75,9 @@ An essential step while design and estimating how complicated a screen is, is to
 ### First use
 Explain to the user functionality of the app, generally shown the first time that user uses the app, or it can appear until the user makes the first interaction that generates content.
 
-| ![typography](./assets/jt-first-use.png) | 
-|:--:| 
+| ![typography](./assets/jt-first-use.png) |
+|:--:|
 | [jobandtalent example of first use state](https://jobandtalent.engineering/visualkit-ui-framework-74ab8aae0d42) |
-
 
 ### User Cleared
 Shown to the user when he clears the content of the screen.
@@ -87,8 +85,8 @@ Shown to the user when he clears the content of the screen.
 ### Error Cases
 Indicate to the user that the App wasn't able to load the content of the page.
 
-| ![typography](./assets/jt-error.png) | 
-|:--:| 
+| ![typography](./assets/jt-error.png) |
+|:--:|
 | [jobandtalent example network error](https://jobandtalent.engineering/visualkit-ui-framework-74ab8aae0d42) |
 
 ### Placeholder
