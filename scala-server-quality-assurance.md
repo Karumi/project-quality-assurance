@@ -23,11 +23,11 @@ We all love to start new features. These are a few questions you should ask to p
   - [ ] The client is just sending the mandatory information, what this feature would do?
   - [ ] The client is not sending the data requested properly, what this feature would do?
   - [ ] Third-party services are down, how the server should behave?
-  - [ ] Are all the business error handled? If not, should they be?  
+  - [ ] Are all the business error handled? If not, should they be?
 
 ## Pull requests
 
-  * Guide the reviewers in how to test the new feature, the endpoints or sites that are affected, how to access them. If there is any context requirement (user logged in, malfunctioning third party service, etc) specify how did you test it.
+* Guide the reviewers in how to test the new feature, the endpoints or sites that are affected, how to access them. If there is any context requirement (user logged in, malfunctioning third party service, etc) specify how did you test it.
 
   * All pull requests must have tests of the endpoints or screens showing UI changes if any.
 
@@ -45,13 +45,13 @@ We all love to start new features. These are a few questions you should ask to p
 
 ## Issues
 
-  * Always include specifications on how the service should be used.
+* Always include specifications on how the service should be used.
   * Add or link all the specs where the usage of the endpoints is described.
   * Contemplate common error scenarios such as third-party services not responding, possible performance issues, etc.
   * Include all the translation keys that are needed to implement the new features. Always include the English copy.
   * List all the actions that have to be tracked in the new feature if applicable.
   * Recommended tags for your issues besides the common ones: _DB_, _API_, _STATS_, _INFRASTRUCTURE_.
-  
+
 ## Fixing an issue
 
 * Try to reproduce it.
@@ -97,7 +97,7 @@ Think that nobody does their job poorly on purpose (or at least not the most of 
 
 ## CVS
 
-  * Include a linting configuration when possible.
+* Include a linting configuration when possible.
   * Ideally, your project should contain an _EditorConfig_ file so that it's easier to work with other developers around different environments.
   * Try to use a feature/fix branch approach, no one should code directly on master/develop.
   * Create a branch for release tentatives, and those branches will be alive while the release is being checked, any change related to that release should be done following the same feature branch approach, but having that release branch as reference branch.
@@ -110,7 +110,7 @@ Think that nobody does their job poorly on purpose (or at least not the most of 
 
 Be sure that the code styles is consistent across the whole project.
 
-  * [ScalaFMT](https://github.com/scalameta/scalafmt).
+* [ScalaFMT](https://github.com/scalameta/scalafmt).
 
 ### Scheduled tasks, cron jobs, and queues
 
@@ -140,7 +140,7 @@ The usage of code generators for boilerplate code could be really helpful. Gener
 
 It’s important to verify that our app is doing what is suppose to do for that we can use:
 
-  * Verification: [ScalaTest](https://github.com/scalatest/scalatest), [ScalaCheck](http://www.scalacheck.org/), and [Mockito](http://site.mockito.org/).
+* Verification: [ScalaTest](https://github.com/scalatest/scalatest), [ScalaCheck](http://www.scalacheck.org/), and [Mockito](http://site.mockito.org/).
   * HttpStubs: [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver) or [WireMock](http://wiremock.org/)
   * PDF Testing: [PDFUtil](http://www.testautomationguru.com/introducing-pdfutil-to-compare-pdf-files-extract-resources/).
   * Redis support: [Embedded Redis](https://github.com/kstyrc/embedded-redis).
