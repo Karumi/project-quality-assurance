@@ -2,19 +2,24 @@
 
 The idea behind this document is to have a reference of how to create, develop and maintain an iOS project in [Karumi](https://karumi.com).
 
-These are no hard rules, but we encourage them as we wrote this document based on our experience doing consultancy projects and in-house project. This document complements the [Project Quality Assurance](https://github.com/Karumi/project-quality-assurance) with all the specifics we follow for iOS projects written in Kotlin.
+These are no hard rules, but we encourage them as we wrote this document based on our experience doing consultancy projects and in-house project. This document complements the [Project Quality Assurance](https://github.com/Karumi/project-quality-assurance) with all the specifics we follow for iOS projects written in Swift.
 
 Although this document is written having in mind that the reader will be using Swift, most of the advice can be easily adapted to Obj-C.
 
 ## Feature kickstart
 
-We all love to start new features. These are a few questions you should ask in order to prevent future delays.
+We all love to start new features. These are a few questions you should ask to prevent future delays.
 
-* Is the design ready?
-  - [ ] Is there any style guide? If not, ask why?
-  - [ ] Are all the assets exported included placeholders? If not, ask.
-  - [ ] Is the design prepared for devices with different sizes? If not, ask why.
-  - [ ] Is the visual design ready for corner case data (long names or numbers, etc.)? If not, point it out.
+* [Is the design prototype ready](./design-collaboration-guidelines.md)?
+  - [ ] Does it include a style guide?
+  - [ ] Is it prepared for devices with different sizes?
+  - [ ] Does it have components that repeat themselves through various screens, if yes does it have a component guide?
+  - [ ] Does it include any navigation prototype or guide?
+  - [ ] Does it include empty states for screens with dynamic content?
+  - [ ] Did we provide a list the interactions that will trigger a loading state?
+  - [ ] Does it include a loading animations?
+  - [ ] Are all the assets exported included placeholders?
+  - [ ] Does it include examples of user-generated content (long names or numbers, etc.)?
 
 * Localization
   - [ ] Are the sentences for this feature defined? If no, require them; if they are, consider if there is enough room to display them, especially the dynamic ones (the ones which will be displaying usernames, amount of money, etc.)
@@ -29,11 +34,11 @@ We all love to start new features. These are a few questions you should ask in o
 
 ## Pull requests
 
-* Guide the reviewers on how to test the new feature, the screens that are affected, how to access them. If there is any context requirement (user logged in, malfunctioning API, etc) specify how did you test it.
+* Guide the reviewers on how to test the new feature, the screens that are affected, how to access them. If there is any context requirement (user logged in, malfunctioning API, etc.) specify how did you test it.
 * All pull requests must have screenshots of the new screens or UI changes if any. It is recommended to show changes on different devices and resolutions (small phones, tablets).
 * If there are animations involved, record them and upload them to the PR.
 * Specify if there are changes in any DB schema and how the evolution is being performed.
-* If there is any change on how the app communicates with the server, link to the documentation of the endpoint being used.
+* If there is any change in how the app communicates with the server, link to the documentation of the endpoint being used.
 * Include new permissions being requested to users.
 
 ## Issues
@@ -41,7 +46,7 @@ We all love to start new features. These are a few questions you should ask in o
 * Always include visuals on how the screen should look like (wireframes, mocks, etc).
 * Add or link all your new assets to the issue.
 * Contemplate common error scenarios such as no internet access, no permissions, etc.
-* Include all the translation keys that are needed to implement the new features. Always include the english copy.
+* Include all the translation keys that are needed to implement the new features. Always include the English copy.
 * List all the actions that have to be tracked in the new feature if applicable.
 * Recommended tags for your issues besides the common ones: _UI_, _DB_, _API_, _STATS_.
 
@@ -59,7 +64,7 @@ Don’t forget you are not your code, the point of establishing a PR process is 
 
 * Try to fix just one thing at a time.
 * Use the template you can find in this repo where you’ll have to introduce the issue you are fixing/developing; what was needed and why the implementation is the way it is.
-* Indicate how it can be tested, ideally it should be in an automatic way, but if not, explain why and the tests the reviewer will have to perform in order to check it’s working as expected.
+* Indicate how it can be tested, ideally it should be in an automatic way, but if not, explain why and the tests the reviewer will have to perform to check it’s working as expected.
 * Indicate how it should be tested by hand. You might have forgotten some scenarios, and the only way to find them out is using exercising that code.
 * Be respectful to your colleagues and answer or at least ACK all their comments.
 
@@ -82,7 +87,7 @@ Think that nobody does their job poorly on purpose (or at least not the most of 
 * You can use _swiftlint_ linting purposes.
 * UI tests can be written in _KIF_ (functional approach), decorated with _Barista_ and _Snap_ (Snapshot based).
 * Use _OHHTTPStubs_ to check your API integration.
-* The CI environment should be used to upload new beta versions to your preferred service (Test Flight, Fabric, etc).
+* The CI environment should be used to upload new beta versions to your preferred service (Test Flight, Fabric, etc.).
 
 ## CVS
 
@@ -144,4 +149,4 @@ Distribute often; it’s an excellent way to gather feedback. For instance, we a
 * Use one of the many tools to keep track of crashes and errors like _Crashlytics_.
 * Create different flavors to point to different environments in your API calls.
 * Configure your debug and release build types. If you need a different signing config for your beta distributions, create a different build type.
-* Always disable stats tracking while running tests or using your app from a development environment. The only safe way to do it is to specifically block tracking from your production code. In order to detect a test environment you can test if there is any test class loaded.
+* Always disable stats tracking while running tests or using your app from a development environment. The only safe way to do it is to specifically block tracking from your production code. In order to detect a test environment, you can test if there is any test class loaded.

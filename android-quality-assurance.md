@@ -4,13 +4,18 @@ The goal of this repository is to define a general guidance for Android projects
 
 ## Feature kickstart
 
-We all love to start new features. These are a few questions you should ask in order to prevent future delays.
+We all love to start new features. These are a few questions you should ask to prevent future delays.
 
-* Is the design ready?
-  - [ ] Is there any style guide? If not, ask why?
-  - [ ] Are all the assets exported included placeholders? If not, ask.
-  - [ ] Is the design prepared for devices with different sizes? If not, ask why.
-  - [ ] Is the visual design ready for corner case data (long names or numbers, etc.)? If not, point it out.
+* [Is the design prototype ready](./design-collaboration-guidelines.md)?
+  - [ ] Does it include a style guide?
+  - [ ] Is it prepared for devices with different sizes?
+  - [ ] Does it have components that repeat themselves through various screens, if yes does it have a component guide?
+  - [ ] Does it include any navigation prototype or guide?
+  - [ ] Does it include empty states for screens with dynamic content?
+  - [ ] Did we provide a list the interactions that will trigger a loading state?
+  - [ ] Does it include a loading animations?
+  - [ ] Are all the assets exported included placeholders?
+  - [ ] Does it include examples of user-generated content (long names or numbers, etc.)?
 
 * Localization
   - [ ] Are the sentences for this feature defined? If no, require them; if they are, consider if there is enough room to display them, especially the dynamic ones (the ones which will be displaying usernames, amount of money, etc.)
@@ -95,7 +100,7 @@ Think that nobody does their job poorly on purpose (or at least not the most of 
 * Try to use a feature/fix branch approach, no one should code directly on master/develop.
 * Create a branch for release tentatives, and those branches will be alive while the release is being checked, any change related to that release should be done following the same feature branch approach, but having that release branch as reference branch.
 * Do not track more code than needed.
-* Setup a proper ignore file, a good example for Swift can be found [here](https://github.com/github/gitignore/blob/master/Swift.gitignore).
+* Setup a proper ignore file, a good example for Android can be found [here](https://github.com/github/gitignore/blob/master/Android.gitignore).
 
 ## Project tooling
 
@@ -127,7 +132,7 @@ Distribute often; it’s an excellent way to gather feedback. For instance, we a
 - Feedback cycle is high enough to detect issues.
 - Bugs are discovered early.
 
-* [Testflight](https://developer.apple.com/testflight/) works perfectly and can be integrated with Fastlane
+* [Google Play - beta](https://support.google.com/googleplay/android-developer/answer/3131213?hl=en) works perfectly and provides useful feedback
 
 ## Project
 

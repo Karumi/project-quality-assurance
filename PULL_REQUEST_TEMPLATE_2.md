@@ -6,11 +6,11 @@
 
 _Provide a description of the overall goal (you can usually copy the one from the issue)_
 
-### How is it being implemented?
+### :memo: How is it being implemented?
 
 _Provide a description of the implementation_
 
-### How can it be tested?
+### :boom: How can it be tested?
 
 _If it cannot be tested explain why._
 
@@ -19,13 +19,13 @@ _If it cannot be tested explain why._
   - [ ] _Step 1_
   - [ ] _Step 2_
 
-### Requires DB migration?
+### :floppy_disk: Requires DB migration?
 
 - [ ] Nope, we can just merge this branch.
 - [ ] Yes, but we need to apply it before merging this branch.
 - [ ] Yes, it's already applied.
 
-### UI changes?
+### :art: UI changes?
 
 - [ ] Nope, the UI remains as beautiful as it was before!
 - [ ] Yeap, here you have some screenshots-
