@@ -4,6 +4,7 @@ The goal of this repository is to define a general guidance for tech projects qu
 
 * [Android](./android-quality-assurance.md)
 * [iOS](./ios-quality-assurance.md)
+* [Scala Server](./scala-server-quality-assurance.md)
 
 ## Pull requests
 
