@@ -5,6 +5,7 @@ The goal of this repository is to define general guidance for tech projects qual
 * [Design Collaboration](./design-collaboration-guidelines.md)
 * [Android](./android-quality-assurance.md)
 * [iOS](./ios-quality-assurance.md)
+* [Scala Server](./scala-server-quality-assurance.md)
 
 ## Pull requests
 
