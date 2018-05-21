@@ -35,9 +35,9 @@ We all love to start new features. These are a few questions you should ask your
 
   * Review if any particular index needs to be configured to improve the service performance. If this is the case, specify it and explain the reason why this index is necessary.
 
-  * We should indicate if any infrastructure change is required. We recommend the usage of tools like [terraform](https://www.terraform.io/) in order to handle your infrastructure.
+  * We should indicate if any infrastructure change is required. We recommend the usage of tools like [terraform](https://www.terraform.io/) to handle your infrastructure.
 
-  * Breaking changes in public API endpoints are not allowed, pay special attention to this when sending the PR. If we can't avoid breaking changes, we'd recommend to to version your API using any of the strategies described in [this blog post](http://www.baeldung.com/rest-versioning).
+  * Breaking changes in public API endpoints are not allowed, pay special attention to this when sending the PR. If we can't avoid breaking changes, we'd recommend to version your API using any of the strategies described in [this blog post](http://www.baeldung.com/rest-versioning).
 
   * If there is any change in how the platform communicates with other services, link to the documentation of the endpoint being used.
 
@@ -169,6 +169,6 @@ Distribute often; it’s an excellent way to gather feedback. For instance, we a
 
 * Create different configurable versions to point to different environments or support different behaviors of the software using simple config changes.
 
-* Configure your debug and release builds.
+* Configure the debug and release builds.
 
 * Always disable stats tracking while running tests or using your app from a development environment. The only safe way to do it is to block tracking from your production code specifically. To detect a test environment, you can test if there is any test class loaded.
