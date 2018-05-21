@@ -6,6 +6,35 @@ Scrumban - Karumi Project Methodology
 
 ## 
 
+# Difference with scrumm
+At Karumi we apply agile methodologies using some variants of Sprint in order focus and quality and deliverability.
+
+Feedback Loops (Cadences):
+
+#### Strategy Review (Quarterly)
+
+Before starting a project and every 3 months during the project, we estimate the amount of features remaining defined by the customer. These are generally expressed in an amout of days and estimated date as these help the customer define budget and priorites.
+
+### Priority Review (Quarterly/Montly)
+Between Quarterly to Monthly, depending on the size of the project and the team the product owner will sit with the customer and review the priorities of the features in order to move them or split them.
+
+#### Replenishment (Weekly)
+
+The product owner or developers individually based on the product owner defined priorities, will set list of items for next sprint. 
+
+#### Sprint Planning (Weekly)
+==> See sprint planning
+
+#### Daily Scrum (Daily)
+==> See daily
+
+#### Delivery (Weekly-Continuous)
+
+
+
+
+DoD, Estimation
+
 
 ## Goals
 Teams following our methodology are expected to deliver quality features on schedule.
@@ -22,13 +51,13 @@ Concentrate on the work identified for the sprint and the goals of the team.
 ### Events
 #### Sprint
 
-The Sprint is a timebox of one week during which the team produces a potentially shippable product **Increment**.
+The Sprint is a timebox of one week or two weeks during which the team produces a potentially shippable product **Increment**. The team itself define the timebox at the begining of the project and adapt it if needed.
 
 #### Sprint Planning
 
-The team starts out a Sprint with a discussion to determine which items from the product backlog they will work on during the Sprint.  The end result of Sprint Planning is the Sprint Backlog.
+The team starts out a Sprint with a discussion to determine which items from the product backlog they will work on during the Sprint. The end result of Sprint Planning is the Sprint Backlog.
 
-Sprint Planning typically occurs in two parts. In the first part, the product owner and the rest of the team agree on which product backlog items will be included in the Sprint.
+Sprint Planning typically occurs in two parts. In the first part, the product owner and the rest of the team agree on which product backlog items will be included in the Sprint. If team is small and know wells the set of feature it's done during the Sprint Planning meeting if not, it's prepared in advance to be ready to review during the sprint planning meeting.
 
 In the Second Part of Sprint Planning, the team determines how they will successfully deliver the identified product backlog items as part of the potentially shippable product increment.  The team may identify specific tasks necessary to make that happen if that is one of their practices.  The product backlog items identified for delivery and tasks if applicable, makes up the Sprint Backlog.
 
@@ -36,7 +65,7 @@ Once the team and product owner establish the scope of the Sprint as described b
 
 #### Daily Scrum
 
-The Daily Scrum is a short (usually limited to 5 minutes) discussion where the team coordinates their activities for the following day. The Daily Scrum is not intended to be a status reporting meeting or a problem solving discussion.
+The Daily Scrum is a short (usually limited from 5 to 15 minutes) discussion where the team coordinate their activities for the following day. The Daily Scrum is not intended to be a status reporting meeting with each member reporting progress to the same person but to each other. Also is the place to raise problems and issues and reserved time after the daily meeting with the corresponding people to solve them.
 
 #### Increment Review
 
@@ -44,7 +73,7 @@ As soon as increment is in a reviewable state the product owner reviews it. The 
 
 ### Artifacts
 #### Product Backlog
-The product backlog is an ordered list of all the possible changes that could be made to the product.  Items on the product backlog are options, not commitments in that just because they exist on the Product Backlog does not guarantee they will be delivered.
+The product backlog is an ordered list of all the possible changes that could be made to the product.  Items on the product backlog are options, not commitments in that just because they exist on the Product Backlog does not guarantee they will be delivered this sprint.
 
 The Product Owner maintains the product backlog on an ongoing basis including its content, availability, and ordering.
 
@@ -57,9 +86,10 @@ The Sprint Backlog is the collection of product backlog items selected for deliv
 
 The increment is the collection of the Product Backlog Items that meet the team’s Definition of Done by the end of the Sprint.  The Product Owner may decide to release the increment or build upon it in future Sprints.
 
-#### Definition of Done
+#### Definition of Ready for Testing
 
 The definition of done is a team’s shared agreement on the criteria that a Product Backlog Item must meet before it is considered done.
+TODO
 
 ### Roles
 #### The Product Owner - Service Request Manager
@@ -85,19 +115,11 @@ Those feedback loops (cadences) are:
 
 #### Strategy Review (Quarterly)
 
-Select the services to provide and the context in which those services are appropriate.
+Select the Features to provide and the context in which those features are appropriate.
 
-#### Operations Review (Monthly)
+#### Retrospective (Monthly)
 
-Understand the balance between and across services, including deploying people and resources to maximize value delivery
-
-#### Risk Review (Monthly)
-
-Understand and respond to delivery risks in services
-
-#### Service Delivery Review (Bi-Weekly)
-
-Examine and improve the effectiveness of a service.  This is similar to a retrospective that is focused on improving the kanban system.
+Examine and improve the effectiveness of past sprints.
 
 #### Replenishment Meeting - Sprint Planning (Weekly)
 
