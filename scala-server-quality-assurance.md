@@ -35,9 +35,9 @@ We all love to start new features. These are a few questions you should ask to p
 
   * Review if any special index needs to be configured in order to improve the service performance. If this is the case, specify it and explain the reason why this index is needed.
 
-  * We should indicate if any infrastructure change is required.
+  * We should indicate if any infrastructure change is required. We recommend the usage of tools like [terraform](https://www.terraform.io/) in order to handle your infrastructure.
 
-  * Breaking changes in public API endpoints are not allowed, pay an special attention to this when sending the PR.
+  * Breaking changes in public API endpoints are not allowed, pay an special attention to this when sending the PR. If we can't avoid breaking changes, we'd recommend to to version your API using any of the strategies described in [this blog post](http://www.baeldung.com/rest-versioning).
 
   * If there is any change in how the platform communicates with other services, link to the documentation of the endpoint being used.
 
