@@ -46,6 +46,8 @@ Animated views allow in general the following change of properties as animation 
 * Position
 * Transform: scale, rotate, or translate
 * Color and transparency
+* Interpolation
+* Timing
 
 Animated assets are used for custom loaders, visual description of first use or empty case. They are defined with a motion graphic tool like Adobe After Effects and integrated into the app with a framework like [Lottie][lottie].
 
