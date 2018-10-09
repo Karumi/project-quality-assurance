@@ -99,6 +99,7 @@ or [a more in-depth version](PULL_REQUEST_TEMPLATE_2.md).
 **Projects will have when possible two or more developers working on it to enforce these requirements.**
 
 ## License
+
 ```
 Copyright 2018 Karumi
 
