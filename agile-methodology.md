@@ -111,7 +111,7 @@ The product backlog is an ordered list of all the possible changes that could be
 
 ### Sprint Backlog
 
-The Sprint Backlog is the collection of product backlog items selected for delivery in the Sprint. And the tasks identified by the team necessary to deliver those product backlog items and achieve the Sprint Goal.
+The Sprint Backlog is the collection of product backlog items selected for delivery in the Sprint. Moreover, the tasks identified by the team necessary to deliver those product backlog items and achieve the Sprint Goal.
 
 ### Increment
 
@@ -141,7 +141,7 @@ Our definition of Done is different from the one from Scrum; ours is defined by 
 
 We don't do Sprint retrospective. Our process is continuous, and every team member is responsible for the Scrum methodology. If any improvements need to be done on the process, it will be communicated with the team as per need basis.
 
-We do project Post-Mortem, were we list: What went well? What could be improved? And Action that can be taken based on this.
+We do project Post-Mortem, were we list: What went well? What could be improved? Also, actions that can be taken based on this.
 
 We don't do burndown chart or measure velocity. We are not interested in the speed of the team, but instead, if the feature can be delivered to the expectation, we communicated with the customer. The difference is that we focus if we are in the budget or on time. 
 
