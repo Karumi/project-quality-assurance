@@ -10,20 +10,20 @@ Agile Delivery is a framework for managing product development and delivery. A f
 
 Four roles have emerged in practice that serves particular purposes.
 
-*   [The Customer](#The-Customer)
-*   [The Product Owner](#The-Product-Owner)
-*   [The Scrum Master](#The-Scrum-Master)
-*   [The Development Team](#The-Development-Team)
+* [The Customer](#The-Customer)
+* [The Product Owner](#The-Product-Owner)
+* [The Scrum Master](#The-Scrum-Master)
+* [The Development Team](#The-Development-Team)
 
 The best way to describe the lifecycle of the Agile Delivery is via the feedback loops involved.
 
-*   [Strategy Review (Quarterly)](#Strategy-Review-(Quarterly))
-*   [Priority Review (Quarterly/Monthly)](#Priority-Review-(Quarterly/Monthly))
-*   [Sprint(Weekly)](#Sprint(Weekly))
-*   [Replenishment(Weekly)](#Replenishment(Weekly))
-*   [Sprint Planning(Weekly)](#Sprint-Planning(Weekly))
-*   [Daily Scrum(Daily)](#Daily-Scrum(Daily))
-*   [Delivery - Increment Review(Weekly-Continuous)](#Delivery---Increment-Review(Weekly-Continuous))
+* [Strategy Review (Quarterly)](#Strategy-Review-(Quarterly))
+* [Priority Review (Quarterly/Monthly)](#Priority-Review-(Quarterly/Monthly))
+* [Sprint(Weekly)](#Sprint(Weekly))
+* [Replenishment(Weekly)](#Replenishment(Weekly))
+* [Sprint Planning(Weekly)](#Sprint-Planning(Weekly))
+* [Daily Scrum(Daily)](#Daily-Scrum(Daily))
+* [Delivery - Increment Review(Weekly-Continuous)](#Delivery---Increment-Review(Weekly-Continuous))
 
 ## Roles
 
@@ -33,13 +33,13 @@ Here below are listed the roles that will be actively involved. An important rem
 
 The customer is responsible for the following:
 
-*   Describe the functionalities that the development team will produce.
+* Describe the functionalities that the development team will produce.
 
-*   Define the priority of each item in the product backlog.
+* Define the priority of each item in the product backlog.
 
-*   Define the acceptance criteria of each feature. The acceptance criteria defined will be used to validate the increments produced.
+* Define the acceptance criteria of each feature. The acceptance criteria defined will be used to validate the increments produced.
 
-*   Define the non-functional requirements.
+* Define the non-functional requirements.
 
 ### The Product Owner
 
@@ -67,11 +67,11 @@ Feedback loops are here to define the structure in a timeline of a project. Thes
 
 We do an estimation of features defined by the customer at the following times:
 
-*   Before starting a project.
+* Before starting a project.
 
-*   At each milestone.
+* At each milestone.
 
-*   Every three months if it is a long-running project.
+* Every three months if it is a long-running project.
 
 Working-day is the unit we use for estimation. Also, we provide an estimated date of delivery based on resources availability. These pieces of information help the customer define budgets and priorities.
 
@@ -155,10 +155,10 @@ The culture at Karumi is what we do, not what we say we do.
 
 ## References
 
-*   What is Scrum? [https://www.scrum.org/resources/what-is-scrum](https://www.scrum.org/resources/what-is-scrum)
+* What is Scrum? [https://www.scrum.org/resources/what-is-scrum](https://www.scrum.org/resources/what-is-scrum)
 
-*   Kanban [https://www.agilealliance.org/glossary/kanban/](https://www.agilealliance.org/glossary/kanban/)
+* Kanban [https://www.agilealliance.org/glossary/kanban/](https://www.agilealliance.org/glossary/kanban/)
 
-*   Scrum [https://www.agilealliance.org/glossary/scrum](https://www.agilealliance.org/glossary/scrum)
+* Scrum [https://www.agilealliance.org/glossary/scrum](https://www.agilealliance.org/glossary/scrum)
 
-*   Scrumban [https://www.agilealliance.org/what-is-scrumban/](https://www.agilealliance.org/what-is-scrumban/)
+* Scrumban [https://www.agilealliance.org/what-is-scrumban/](https://www.agilealliance.org/what-is-scrumban/)
