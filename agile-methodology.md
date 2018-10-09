@@ -27,7 +27,7 @@ The best way to describe the lifecycle of the Agile Delivery is via the feedback
 
 ## Roles
 
-Here below are listed the roles that will be actively involved. An important reminder is that these are describing roles, not job descriptions. One person can take on more than one role, and these can vary in a project basis or even during the lifetime of a project.
+Here below are listed the roles that will be actively involved. An important reminder is that these are describing functions, not job descriptions. One person can take on more than one role, and these can vary on a project basis or even during the lifetime of a project.
 
 ### The Customer
 
@@ -55,7 +55,7 @@ The role does not have any actual authority, and anyone from the development tea
 
 ### The Development Team
 
-The development team deliver the product increment that add value every Sprint. How the work is divided up, and do what is left, is up to the team based on the current conditions.
+The development team delivers the product increment that adds value every Sprint. How the work is divided up, and do what is left, is up to the team based on the current conditions.
 
 ## Feedback loops
 
@@ -75,7 +75,7 @@ Working-day is the unit we use for estimation. Also, we provide an estimated dat
 
 ### Priority Review (Quarterly/Monthly)
 
-Based on the size of the project and the team, this feedback can be gathered from quarterly to monthly. The product owner will sit with the customer and review the priorities of the features. This phase uses the information gathered from the Strategy Review, and Feedback gathered during each Sprint.
+Based on the size of the project and the team, this feedback can be gathered from quarterly to monthly. The product owner will sit with the customer and review the priorities of the features. This phase uses the information collected from the Strategy Review, and Feedback gathered during each Sprint.
 
 ### Replenishment (Weekly)
 
@@ -89,7 +89,7 @@ A Sprint is a timebox of one or two weeks during which the team produces a shipp
 
 Sprint Planning occurs in two parts. In the first part, the product owner and the development team agree on which product backlog items the Sprint will contain. The Product Owner will remind the product goal that will everybody focus the tasks of the Sprint on it. If the team is small and know wells the set of features, this part is done during the Sprint Planning meeting. If not, it's prepared in advance to be ready to review during the sprint planning meeting. Also, all items from the previous Sprint Backlog that are not finished will be added to this Sprint Backlog.
 
-In the Second Part, the development team determines how they will deliver the identified product backlog items. The development team may identify necessary tasks necessary to make that happen.  The product backlog items identified for delivery and additional tasks, are called the Sprint Backlog.
+In the Second Part, the development team determines how they will deliver the identified product backlog items. The development team may identify necessary tasks necessary to make that happen.  The product backlog items identified for delivery and additional tasks are called the Sprint Backlog.
 
 Once the development team and product owner establish the scope of the Sprint, no more items can be added to the Sprint Backlog.
 
