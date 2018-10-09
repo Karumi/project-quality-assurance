@@ -4,7 +4,7 @@
 
 At Karumi we used a variation of Scrum focused on quality and deliverability we called that Agile Delivery.
 
-Why don’t we directly apply Scrum? Scrum implementation we have seen have the Product Owner, QA or the developer validating of items in the sprint backlog. In our implementation of agile the customer is the one marking the items as Done. Based on our experience customers do not work at the same pace as we do. We could have some sprint with no item feedback and other Sprint validating various sprint items. That's why the Sprint in Agile Delivery does contain the item validation. Besides that, Sprint as the concept of a set of Increments that will be presented during the Demo. This clashes with the modern cycle of continuous delivery and asynchronous communication. For this reason, each increment in Agile Delivery has his async demo. The forms we use are a screenshot, a video, a testing environment or any combination of these elements.
+Why don’t we directly apply Scrum? Scrum implementation we have seen have the Product Owner, QA or the developer validating of items in the sprint backlog. In our implementation of agile the customer is the one marking the items as Done. Based on our experience customers do not work at the same pace as we do. We could have some sprint with no item feedback and other Sprint validating various sprint items. That's why the Sprint in Agile Delivery does contain the item validation. Besides that, Sprint as the concept of a set of Increments that will be presented during the Demo. This clash with the modern cycle of continuous delivery and asynchronous communication. For this reason, each increment in Agile Delivery has his async demo. The forms we use are a screenshot, a video, a testing environment or any combination of these elements.
 
 Agile Delivery is a framework for managing product development and delivery. A fundamental principle is a recognition that the product has an amount of unknown. These unknowns can go from product definition to technical challenge to face. Not everything can be known in advance or tested prototyping. Accepting that the problem cannot be fully understood or defined up front. So instead, we focus on how to maximize the team's ability to deliver quickly and often. The goal is to optimize the workflow to gather feedback as soon as possible and having the possibility to iterate on it. That also includes responding to emerging requirements and adapting to evolving technologies.
 
@@ -55,9 +55,7 @@ The role does not have any actual authority, and anyone from the development tea
 
 ### The Development Team
 
-The development team consists of the people who deliver the product increment inside a Sprint.
-
-The primary responsibility of the development team is to deliver the increment that delivers value every Sprint. How the work is divided up to do what is left and is up to the team to determine based on the conditions at that time.
+The development team deliver the product increment that add value every Sprint. How the work is divided up, and do what is left, is up to the team based on the current conditions.
 
 ## Feedback loops
 
@@ -89,15 +87,15 @@ A Sprint is a timebox of one or two weeks during which the team produces a shipp
 
 ### Sprint Planning (Weekly)
 
-Sprint Planning occurs in two parts. In the first part, the product owner and the rest of the team agree on which product backlog items the Sprint will contain. The Product Owner will remind the product goal that will everybody focus the tasks of the Sprint on it. If the team is small and know wells the set of features, this part is done during the Sprint Planning meeting. If not, it's prepared in advance to be ready to review during the sprint planning meeting. Also, all items from the previous Sprint Backlog that are not finished will be added to this Sprint Backlog.
+Sprint Planning occurs in two parts. In the first part, the product owner and the development team agree on which product backlog items the Sprint will contain. The Product Owner will remind the product goal that will everybody focus the tasks of the Sprint on it. If the team is small and know wells the set of features, this part is done during the Sprint Planning meeting. If not, it's prepared in advance to be ready to review during the sprint planning meeting. Also, all items from the previous Sprint Backlog that are not finished will be added to this Sprint Backlog.
 
-In the Second Part of Sprint Planning, the team determines how they will deliver the identified product backlog items.  The team may identify specific tasks necessary to make that happen if that is one of their practices.  The product backlog items identified for delivery and tasks if applicable, make up the Sprint Backlog.
+In the Second Part, the development team determines how they will deliver the identified product backlog items. The development team may identify necessary tasks necessary to make that happen.  The product backlog items identified for delivery and additional tasks, are called the Sprint Backlog.
 
-Once the development team and product owner establish the scope of the Sprint, no more items can be added to the Sprint Backlog. This protects the team from scope changes within that Sprint.
+Once the development team and product owner establish the scope of the Sprint, no more items can be added to the Sprint Backlog.
 
 ### Daily Scrum (Daily)
 
-The Daily Scrum is a short (limited from 5 to 15 minutes) discussion where the team coordinates their activities for the following day. The Daily Scrum is not intended to be a status reporting meeting with each member reporting progress to the same person but to each other. Also is the place to raise problems and issues and reserved time after the daily meeting with the corresponding people to solve them.
+The Daily Scrum is a short (limited from 5 to 15 minutes) discussion where the team coordinates their activities. The Daily Scrum is not a status reporting meeting where each member report progress to the same person but instead to each other. Also is the place to raise problems and issues and reserved time after the daily meeting with the corresponding people to solve them.
 
 ### Delivery - Increment Review(Weekly-Continuous)
 
@@ -109,7 +107,7 @@ Delivery for Review can be available from multiples times a day up to once a wee
 
 ### Product Backlog
 
-The product backlog is an ordered list of all the possible changes that could be made to the product. The Product Owner maintains the product backlog on an ongoing basis including its content and order.
+The product backlog is an ordered list of all the possible changes that could be made to the product. The Product Owner maintains the product backlog including its content and order.
 
 ### Sprint Backlog
 
