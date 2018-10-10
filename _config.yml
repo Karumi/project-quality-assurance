@@ -1,4 +1,6 @@
-theme: jekyll-theme-architect
+title: "Project Quality Assurance"
+baseurl: /
+remote_theme: Karumi/KarumiJekyllTheme
 
 plugins:
   - jekyll-seo-tag
