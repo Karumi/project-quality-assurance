@@ -100,11 +100,12 @@ Think that nobody does their job poorly on purpose (or at least not the most of 
 
 ## Project tooling
 
-### Lint
+### Formatting/Linting
 
-Be sure that the code styles is consistent across the whole project.
+Be sure that the code styles is consistent across the whole project. You have two options, you can use:
 
 * [SwiftLint](https://github.com/realm/SwiftLint)
+* [SwiftFormat](https://github.com/nicklockwood/SwiftFormat)
 
 ### Tests
 
